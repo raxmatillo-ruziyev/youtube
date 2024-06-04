@@ -1,0 +1,71 @@
+.top{
+    width: 1400px;
+    margin: 0 auto;
+    align-items: center;
+    margin-right: 0;
+}
+.inputcha{
+    width: 1400px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.inputcha2{
+    width: 200px;
+}
+.form{
+    left: 0;
+    position: relative;
+    align-items: center;
+    width: 600px;
+    height: 35px;
+    border-radius: 25px;
+    padding: 1px;
+    opacity: 0.5;
+    background: rgba(196, 191, 191, 0.593);
+}
+#icon{
+    position: absolute;
+    right: 15px;
+    top: 10px;
+}
+.SearchInput{
+    position: absolute;
+    width: 600px;
+    padding-left: 20px;
+    height: 35px;
+    font-size: 20px;
+    border: none;
+    background: transparent;
+    color: black;
+    border-radius: 25px;
+}
+.topList{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    padding-left: 0;
+    padding-right: 0;
+    list-style: none;
+}
+.topItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 110px;
+}
+.topBtn{
+    border-radius: 50%;
+    border: none;
+    padding: 2px 4px;
+    font-size: 7px;
+    color: white;
+    background: red;
+    position: absolute;
+    top: -2px;
+    right: -1px;
+}
+.divcha{
+    position: relative;
+}

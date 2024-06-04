@@ -1,0 +1,51 @@
+.hero{
+    width: 1400px;
+    margin: 0 auto;
+    align-items: center;
+}
+.herocha,.heroBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.heroTitle{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    margin-left: 20px;
+}
+#i2{
+    font-size: 35px;
+    opacity: 0.4;
+   margin-right: 50px;
+}
+.iconcha{
+    margin-right: 80px;
+}
+.heroList{
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.heroItem{
+    
+   margin-left: 3.55px;
+   margin-right: 0;
+}
+.heroSubtitle{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    width: 235px;
+}
+.heroBoxcha{
+    display: flex;
+    justify-content: space-between;
+    width: 210px;
+}
+.heroText{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 11px;
+}
