@@ -1,11 +1,14 @@
 .top{
-    width: 1400px;
+    width: 950px;
     margin: 0 auto;
     align-items: center;
     margin-right: 0;
+    // position: fixed;
+    // z-index: 100;
+    // background-color: white;
 }
 .inputcha{
-    width: 1400px;
+    width: 900px;
     height: 40px;
     display: flex;
     justify-content: space-between;
@@ -18,7 +21,7 @@
     left: 0;
     position: relative;
     align-items: center;
-    width: 600px;
+    width: 470px;
     height: 35px;
     border-radius: 25px;
     padding: 1px;
@@ -32,7 +35,7 @@
 }
 .SearchInput{
     position: absolute;
-    width: 600px;
+    width: 450px;
     padding-left: 20px;
     height: 35px;
     font-size: 20px;

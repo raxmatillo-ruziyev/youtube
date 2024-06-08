@@ -1,7 +1,6 @@
 import React from 'react'
 import './Top.scss'
 import top from '../../assets/top.png'
-import Navbar from '../Navbar/Navbar'
 const Top = () => {
   
    
@@ -11,10 +10,12 @@ const Top = () => {
     
       <div className="top">
         <div className="inputcha">
-            <form className='form'>
-            <input className='SearchInput' type="search" name="" id=""  placeholder='Search'   />
+          <div>
+          <form className='form'>
+            <input className='SearchInput' type="text" name="" id=""  placeholder='Search'   />
             <i id='icon' className='fa fa-search'></i>
             </form>
+          </div>
             <div className="inputcha2">
              <ul className="topList">
                 <li className="topItem">

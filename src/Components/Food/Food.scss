@@ -1,73 +1,127 @@
-.food{
-    width: 1400px;
+.food {
+    width: 950px;
     margin: 0 auto;
     align-items: center;
 }
-.foodcha{
+
+.foodcha {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.foodBox{
+
+.foodBox {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.foodTitle{
+
+.foodTitle {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 35px;
+    font-size: 32px;
+    width: 210px;
     font-weight: 500;
-    padding-left: 20px;
+    padding-left: 10px;
 }
-.foodTextcha{
+
+.foodTextcha {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 400;
     font-size: 20px;
-    padding-left: 10px;
+    padding-left: 5px;
     padding-top: 9px;
+    width: 310px;
 }
-.iconcha{
+
+.iconcha {
     display: flex;
     justify-content: space-between;
-    align-items: center ;
+    align-items: center;
 }
-.foodBtn{
-    width: 160px;
-    height: 40px;
+
+.foodBtn {
+    width: 130px;
+    height: 35px;
     margin-right: 40px;
     border: none;
     border-radius: 35px;
     color: white;
     background: red;
-    &:hover{
+
+    &:hover {
         background: transparent;
         color: red;
         border: 1px solid red;
     }
 }
-.foodList{
+
+.foodList {
     list-style: none;
     padding-left: 0;
-    display: flex;
-    justify-content: space-between;
+    // display: flex;
+    // justify-content: space-between;
 }
-.foodItem{
-    margin-left: 3.55px;
-    margin-right: 0;
+
+.foodItem {
+    width: 300px;
 }
-.foodSubtitle{
+
+.foodSubtitle {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 400;
     font-size: 18px;
     width: 235px;
 }
-.foodBoxcha{
+
+.foodBoxcha {
     display: flex;
     justify-content: space-between;
     width: 210px;
 }
-.foodText{
+
+.foodText {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 300;
     font-size: 11px;
+}
+
+
+.swiper {
+    width: 100%;
+    height: 350px;
+}
+
+.swiper-slide {
+    // text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-slide {
+    width: 80%;
+}
+
+.swiper-slide:nth-child(2n) {
+    width: 60%;
+}
+
+.swiper-slide:nth-child(3n) {
+    width: 40%;
+}
+
+.buttonchaa {
+    background: transparent;
+    border: none;
 }

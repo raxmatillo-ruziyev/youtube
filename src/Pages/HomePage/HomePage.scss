@@ -1,8 +1,19 @@
-.homePage{
-    width: 1700px;
+.homePage {
+    width: 1200px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     //  border: 1px solid red;
-     padding: 20px 5px;
+    padding: 20px 5px;
+}
+
+.Left {
+    overflow-y: scroll;
+    height: 100vh;
+
+}
+
+.Right {
+    overflow-y: scroll;
+    height: 100vh;
 }

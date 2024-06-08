@@ -1,8 +1,14 @@
-.navbar{
-    width: 200px;
-    margin: 0 ;
+.navbar {
+    width: 170px;
+    margin: 0;
+
+    // overflow-y: scroll;
+    // height: 100vh;
+    // position: fixed;
+    // background: red;
 }
-#hamburger{
+
+#hamburger {
     font-size: 26px;
     opacity: 1;
 }

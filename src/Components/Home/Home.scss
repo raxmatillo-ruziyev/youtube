@@ -1,43 +1,50 @@
-.home{
+.home {
     width: 200px;
     margin: 0 auto;
-   align-items: center;
+    align-items: center;
+ 
 }
-.homeList{
+
+.homeList {
     list-style: none;
     align-items: center;
     padding-left: 0;
 }
-.homeItem{
+
+.homeItem {
     display: flex;
     align-items: center;
     text-align: left;
-    &:hover{
+
+    &:hover {
         color: red;
         opacity: 1;
     }
 }
 
-#i{
+#i {
     opacity: 0.3;
-    font-size: 22px;
-    &:hover{
+    font-size: 20px;
+
+    &:hover {
         color: red;
         opacity: 1;
     }
-    
+
 
 }
-.homeTitle{
-    font-family: 'Mulish',sans-serif;
+
+.homeTitle {
+    font-family: 'Mulish', sans-serif;
     margin-left: 10px;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 19px;
     opacity: 0.3;
     line-height: 15px;
-    &:hover{
+
+    &:hover {
         color: red;
         opacity: 1;
     }
-   
+
 }

@@ -1,5 +1,5 @@
 .recommended{
-    width: 1400px;
+    width: 950px;
     margin: 0 auto;
     align-items: center;
 }
@@ -19,7 +19,7 @@
     align-items: center;
     list-style: none;
     padding-left: 0;
-    margin-right: -5px;
+    // margin-right: -5px;
 }
 .recSubtitle{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -32,6 +32,11 @@
     font-size: 15px;
 }
 .recBoxcha{
+    padding-right: 35px;
     display: flex;
     justify-content: space-between;
+   
+}
+.iconcha{
+    margin: 0;
 }

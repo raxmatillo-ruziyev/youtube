@@ -7,12 +7,12 @@ import next4 from '../../assets/next4.png'
 import next5 from '../../assets/next5.png'
 import next6 from '../../assets/next6.png'
 const Next = () => {
-  return (
-    <>
-      <div className="next">
-      <ul className="nextList">
-        <h1 className="nextSubtitle">Subscriptions</h1>
-                   
+    return (
+        <>
+            <div className="next">
+                <ul className="nextList">
+                    <h1 className="nextSubtitle">Subscriptions</h1>
+
                     <li className="nextItem">
                         <img src={next1} alt="" />
                         <h3 className="nextTitle">Gussie Singleton</h3>
@@ -21,7 +21,7 @@ const Next = () => {
                         <img src={next2} alt="" />
                         <h3 className="nextTitle">Nora Francis</h3>
                     </li>
-                 
+
                     <li className="nextItem">
                         <img src={next3} alt="" />
                         <h3 className="nextTitle">Belle Briggs</h3>
@@ -30,7 +30,7 @@ const Next = () => {
                         <img src={next4} alt="" />
                         <h3 className="nextTitle">Eunice Cortez</h3>
                     </li>
-                 
+
                     <li className="nextItem">
                         <img src={next5} alt="" />
                         <h3 className="nextTitle">Emma Hanson</h3>
@@ -44,11 +44,11 @@ const Next = () => {
                         <i id='i' className='fa fa-cog'></i>
                         <h3 className="nextTitle">Setting</h3>
                     </li>
-                      
+
                 </ul>
-      </div>
-    </>
-  )
+            </div>
+        </>
+    )
 }
 
 export default Next

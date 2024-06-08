@@ -8,11 +8,12 @@ function App() {
 
   return (
     <>
-    <HomePage/>
-  
-    {/* <ChannelPage/> */}
-    {/* <VidioPlayerPage/> */}
-       
+      <HomePage />
+
+
+      {/* <ChannelPage/> */}
+      {/* <VidioPlayerPage/> */}
+
     </>
   )
 }
