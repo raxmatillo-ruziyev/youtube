@@ -6,6 +6,7 @@ import next3 from '../../assets/next3.png'
 import next4 from '../../assets/next4.png'
 import next5 from '../../assets/next5.png'
 import next6 from '../../assets/next6.png'
+import { Link } from 'react-router-dom'
 const Next = () => {
     return (
         <>
@@ -15,34 +16,34 @@ const Next = () => {
 
                     <li className="nextItem">
                         <img src={next1} alt="" />
-                        <h3 className="nextTitle">Gussie Singleton</h3>
+                        <Link to={"/one"} className="nextTitle">Gussie Singleton</Link>
                     </li>
                     <li className="nextItem">
                         <img src={next2} alt="" />
-                        <h3 className="nextTitle">Nora Francis</h3>
+                        <Link to={"/two"} className="nextTitle">Nora Francis</Link>
                     </li>
 
                     <li className="nextItem">
                         <img src={next3} alt="" />
-                        <h3 className="nextTitle">Belle Briggs</h3>
+                        <Link to={"/three"} className="nextTitle">Belle Briggs</Link>
                     </li>
                     <li className="nextItem">
                         <img src={next4} alt="" />
-                        <h3 className="nextTitle">Eunice Cortez</h3>
+                        <Link to={"/four"} className="nextTitle">Eunice Cortez</Link>
                     </li>
 
                     <li className="nextItem">
                         <img src={next5} alt="" />
-                        <h3 className="nextTitle">Emma Hanson</h3>
+                        <Link to={"/five"} className="nextTitle">Emma Hanson</Link>
                     </li>
                     <li className="nextItem">
                         <img src={next6} alt="" />
-                        <h3 className="nextTitle">Leah Berry</h3>
+                        <Link to={"/four"} className="nextTitle">Leah Berry</Link>
                     </li>
                     <br /><br /> <br />
                     <li className="nextItem">
                         <i id='i' className='fa fa-cog'></i>
-                        <h3 className="nextTitle">Setting</h3>
+                        <Link to={"/settings"} className="nextTitle">Setting</Link>
                     </li>
 
                 </ul>
